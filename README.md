@@ -1,4 +1,4 @@
-# Automated Carwash System
+# Automatic Car-washing System
 ## Abstract
 
 The project aims at building an automatic car washing system. Based on the user’s choice, one of the three types of car wash is selected and the car is washed accordingly as it is slowly steered towards the exit.
@@ -35,9 +35,6 @@ The project uses LEDs to demonstrate the workflow of the system.
 * Connecting Wires 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: As per the circuit requirements
 
-Circuit Image
-![Circuit Image]()
-
 ## Implementation
 
 The project uses a sliding switch as the ON/OFF switch for the main power supply. Turning OFF the switch will disable the entire system immediately. The system continuously polls in a loop to keep track of the status of the sliding button. As soon as it finds out that the sliding button is in the OFF state, it disables the system. Turning ON the sliding switch starts the system from its initial state.
@@ -45,16 +42,6 @@ The project uses a sliding switch as the ON/OFF switch for the main power supply
 Suitable delays have been provided in the system to enable the user to enter his/her choice of car-wash, to steer the car towards the desired booth and to steer the car away from the booth. Ultrasonic proximity sensors have been used to detect the presence of a car at a particular booth. As soon as the car reaches in the two meter proximity of the sensor, the booth starts with its functionality. This has been demonstrated by the use of LEDs.
 
 When the car exits, the car wash system begins a new cycle of washing for the cars standing in the queue. The system can be turned OFF using the sliding switch in case no other cars are present in the queue.
-
-## Further Stages Of Development
-
-* A temperature sensor can be incorporated to detect overheating of any component of the system.
-
-* A push button that can be pressed by the user in case of emergency, sending off an alarm. This can be accomplished using a Piezo buzzer.
-
-* The buzzer will send out an alarm until the sliding switch is not turned OFF.
-
-* Instead of polling to check the status of the sliding switch or emergency status, another thread can be used which will run in the background and come into action as soon as it detects a change of state in either of the two.
 
 
 ## Team Experience
