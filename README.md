@@ -1,5 +1,5 @@
-# Automatic Car-washing System
-## Abstract
+# Automatic Car-washing System Project
+## About
 
 The project aims at building an automatic car washing system. Based on the user’s choice, one of the three types of car wash is selected and the car is washed accordingly as it is slowly steered towards the exit.
 
@@ -8,11 +8,10 @@ The three car wash options are as follows:
 * Water + Soap
 * Water + Soap + Wax
 
-It’s up to the user to either steer manually or to use the automated system.
 
-The system comprises of four different booths/stations for different purposes:
+The system comprises of four different booths for different purposes:
 * __Water Booth:__ Cleans the car using water only
-* __Soap Booth:__ Cleans the car using soap
+* __Soap Booth:__ Cleans the car using soap Water
 * __Soap+Wax Booth:__ Cleans the car using soap. Wax is used to add a final shine to the car.
 * __Drying Booth:__ To dry the car using air jets.
 
@@ -46,5 +45,4 @@ When the car exits, the car wash system begins a new cycle of washing for the ca
 
 ## Team Experience
 
-The project provided the team with a chance to work in collaboration with
-students. There was a sense of being separated by boundaries but being connected by common interests including the keenness to learn and explore diverse technologies. It was the first time our team worked with Arduino. The experience was fun, but challenging at times. Overcoming the obstacles together is what made the project even more enjoyable.
+The project provided the team with a chance to work in collaboration with students. It was the first time our team worked with Arduino. The experience was fun, but challenging at times.
